@@ -18,7 +18,7 @@ class Onebox::Engine::TurbowarpOnebox
 
     options = options ? "?" + options : ""
     url = "https://turbowarp.org/#{project_id}/embed#{options}"
-    "<iframe src='#{url}' width='482' height='412' allowtransparency='true frameborder='0' scrolling='no' allowfullscreen></iframe>"
+    "<iframe src='#{url}' width='482' height='412' allowtransparency='true' frameborder='0' scrolling='no' allowfullscreen></iframe>"
   end
 
   private
